@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-BIG BOSS VOTING ZONE</title>
+
+    <style>
+        #LOGIN {
+            border: 3px solid;
+            width: 357px;
+            padding: 30px 70px 50px 70px;
+            margin: 20px 127px 190px 0px;
+            background-color: #18133d;
+            border-radius: 19px;
+            box-shadow: 0px 0px 22px;
+            color: rgb(249, 243, 243);
+            float: right;
+        }
+
+        body {
+            background-color: #1a0822;
+        }
+
+        .user {
+            font-size: large;
+
+        }
+
+        .btn {
+            background-color: cadetblue;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: rgb(46, 70, 83);
+        }
+
+        .imglogo {
+            float: left;
+            width: 550px;
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imglogo">
+        <img src="https://www.jiocinema.com/images/bigbossCarousel/biggBoss_logo.png" alt="reload" width="550px"
+            height="400px">
+        <h1 class="white"><em><ins>"ISS BAAR JANTA H ASLI BOSS"</ins></em></h1>
+    </div><br><br><br><br><br><br><br><br>
+    <div id="LOGIN">
+        <h1 class="name"><ins>
+                <center>LOGIN</center>
+            </ins></h1>
+        <div><form action="backend.php" method="post">
+            <div class="user"><br><br>
+                <center><label for="username">USERNAME:</label>
+                    <input type="text" name="myuser" id="username" required autofocus>
+                </center>
+            </div><br>
+            <div class="user">
+                <center><label for="password">PASSWORD:</label>
+                    <input type="password" name="mypassword" id="password" required autofocus>
+                </center>
+            </div>
+            <center><label for="save">Save Info:</label>
+                <input type="checkbox" name="save" id="save">
+            </center><br>
+            <center><a href="file4.html" class="btn">LOGIN</a></center>
+        </form></div>
+    </div>
+</body>
+
+</html>

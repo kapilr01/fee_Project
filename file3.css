@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    background: url(https://www.kewlquiz.com/wp-content/uploads/2020/12/biggboss13logo001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    color: white;
+}
+
+#main {
+    min-height: 100vh;
+    backdrop-filter: blur(0px) opacity(0.1);
+    background: #10092e98;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 700;
+    color: white;
+    background: #10092e;
+}
+
+header div {
+    width: 50%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul a{
+    margin: 0 1rem;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+main .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hero {
+    display: flex;
+    margin-bottom: 5rem;
+}
+.avish{
+    font-size: large;
+}
+
+#hero section {
+    width: 50%;
+    padding: 2rem;
+}
+
+#hero section * {
+    margin: 1rem;
+}
+
+.card {
+    margin: 0.5rem;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#voteNow {
+    background: purple;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+.head1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#voteNow:hover {
+    background: aliceblue;
+    color: purple;
+}
